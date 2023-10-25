@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; manifest-src 'self'">
+    <title>Test Extension</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <h1>Chat App</h1>
+    <p class="custom">  </p>
+    <p class="p1">P1</p>
+    <div id="messages"></div>
+    <p class="p2">P2</p>
+    
+    <input placeholder="Send Message" type="text" name="message" id="message">
+    <button id="sendBtn" >Send</button>
+    
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js"></script>
+
+    <script src="./script.js" ></script>
+</body>
+</html>
